@@ -1,0 +1,70 @@
+/*BASIC BODY*/
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lobster", cursive;
+  /* font-family: "Sacramento", cursive; */
+}
+
+header {
+  background: url(images/cover1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* NAVIGATION BAR */
+.nav_container {
+  font-size: 3rem;
+  color: white;
+}
+#logo {
+  padding: 1rem;
+}
+nav {
+  min-height: 5vh;
+  max-height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  padding: 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: auto;
+}
+nav > ul {
+  list-style: none;
+  display: flex;
+}
+@media only screen and (max-width: 800px) {
+  nav {
+    color: red;
+    font-size: 1.9rem;
+    min-height: 4vh;
+    margin: 0;
+  }
+  li {
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+}
+
+/* COVER CONTENT */
+.cover_container {
+  color: white;
+  font-size: 4rem;
+  font-family: "Sacramento", cursive;
+  padding: 0rem 0rem 3rem 8rem;
+}
